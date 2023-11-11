@@ -1,0 +1,79 @@
+body {
+    height: 100vh !important;
+}
+
+.shadow {
+    box-shadow: 0 0 0.2rem rgb(0, 0 , 0, 0.3) !important;
+}
+
+input {
+    background: #F1F1F2 !important;
+}
+
+input:focus {
+    outline: none !important;
+    border: 2px solid #0F6DEA !important;
+    box-shadow: none !important;
+}
+
+input:hover {
+    background: #E1E3E4 !important;
+    transform: 0.3s ease-in-out;
+}
+
+label::after {
+    color: #0F6DEA !important;
+}
+
+/* .form-control:focus ~ label {
+    color: #0F6DEA !important;
+} */
+
+.lupapw{
+    background: none;
+    border: none;
+    color: #0F6DEA  ;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.form-floating {
+    color: rgb(114, 114, 114);
+}
+
+.form-control:focus ~ label{
+    color: #0f6dea !important;
+    background: none !important;
+}
+
+.text-start{
+    text-align: start !important;
+}
+i{
+    content: url('image/mata.svg');
+    position: absolute !important;
+    top: 18px; 
+    right: 15px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.tombol:disabled {
+    background-color: pink !important;
+    color: rgb(84, 84, 84) !important;
+    border: 0 !important;
+}
+
+.eye-slash {
+    content: url(/image/mataslash.svg);
+}
+
+.sk {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px){
+    .login-image img{
+        content: url(image/bil.png);
+    }
+}
